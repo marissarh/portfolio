@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(230, 230, 230);
+}
+h1 {
+    background-color: bisque;
+    color: rgb(135, 139, 203);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    color: rgb(46,176,186);
+}
+p{
+    color: rgb(46,176,186);
+    font-weight: bold;
+    font-size: large;
+}
+a:visited{
+    color: rgb(46, 176, 186);
+}
+a:hover{
+    font-size: 28px;
+    background-color: bisque;
+}
+footer{
+    text-align: right;
+    color: bisque;
+    background-color: rgb(135, 139, 203);
+}
+
+img{
+    border-color: rgb(135, 139, 203);
+    border-style: dotted;
+    border-width: 10px;
+}
+.heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: rgb(230, 230, 230);
+    background-color: rgb(46, 176, 186);
+    padding: 2%;
+}
+#intro{
+    background-color: bisque;
+    color: rgb(135, 139, 203);
+}
+#secondary{
+    background-color: rgb(46, 176, 186);
+    color: rgb(230, 230, 230);
+}
