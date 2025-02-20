@@ -1,13 +1,26 @@
 body{
     background-color: rgb(230, 230, 230);
-}
+} 
+
 h1 {
+    position: relative;
     background-color: bisque;
     color: rgb(135, 139, 203);
-    text-align: center;
-    padding: 20px;
+    padding: 30px;
     font-size: 30px;
+    text-align: center;
+    top: 0;
 }
+.first-heading{
+    position: sticky;
+    left: 0;
+    width: 100%;
+  }
+.protest-riot-regular {
+    font-family: "Protest Riot", serif;
+    font-weight: 400;
+    font-style: normal;
+  } 
 h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 26px;
@@ -29,6 +42,9 @@ footer{
     text-align: right;
     color: bisque;
     background-color: rgb(135, 139, 203);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 img{
@@ -50,4 +66,22 @@ img{
 #secondary{
     background-color: rgb(46, 176, 186);
     color: rgb(230, 230, 230);
+}
+.fa-person-dress, .fa-splotch{
+    color: rgb(190, 165, 68);
+    margin-right: 8px;
+}
+.nav-items{
+    display: flex;
+    justify-content:center; 
+}
+.first-item{
+    margin-right: 20px;
+}
+p{
+    font-size: 30px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
 }
