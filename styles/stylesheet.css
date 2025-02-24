@@ -10,6 +10,8 @@ h1 {
     font-size: 30px;
     text-align: center;
     top: 0;
+   
+
 }
 .first-heading{
     position: sticky;
@@ -29,13 +31,14 @@ h3{
 p{
     color: rgb(46,176,186);
     font-weight: bold;
-    font-size: large;
+    font-size: 30px; 
 }
+
 a:visited{
     color: rgb(46, 176, 186);
 }
 a:hover{
-    font-size: 28px;
+    font-size: 40px;
     background-color: bisque;
 }
 footer{
@@ -78,10 +81,30 @@ img{
 .first-item{
     margin-right: 20px;
 }
-p{
-    font-size: 30px;
-}
+
 .flex-container{
     display: flex;
     flex-direction: column;
+}
+
+a{
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-timing-function: ease-out;
+    transition-delay: 2s;
+  }
+h2:hover{
+    border: 8px solid red;
+}
+h2{
+    transition: border 3s ease-in-out;
+}
+ul{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: red;
+}
+ul li:nth-child(even){
+    text-decoration: underline green 4px;
+    
 }
